@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "932102473473",
+    "project_id": "demarrage-business",
+    "storage_bucket": "demarrage-business.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:932102473473:android:d44470b67db4f27a42bd00",
+        "android_client_info": {
+          "package_name": "com.example.demarrage_business"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr6s5JntyfKcnzWfKD0UONO4biwqUo3kY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
