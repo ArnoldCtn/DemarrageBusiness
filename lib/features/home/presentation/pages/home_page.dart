@@ -27,14 +27,49 @@ class _HomePageState extends State<HomePage> {
       {"title": "Arbitre pour tournois locaux", "price": "3,000 FCFA / match", "desc": "Deviens l'arbitre officiel des tournois de vacances. C'est un rôle respecté qui te permet de rester actif dans le milieu du football."}
     ],
     "cuisine": [
-      {"title": "Service de livraison", "price": "2,500 FCFA / plat", "desc": "Prépare des repas équilibrés pour les employés de bureau qui n'ont pas le temps de cuisiner. Mettre en avant la qualité et la rapidité pour fidéliser ta clientèle."},
-      {"title": "Traiteur événementiel", "price": "50,000 FCFA min", "desc": "Propose des services de traiteur pour les mariages, baptêmes et réunions familiales. La cuisine camerounaise revisitée est très demandée pour ce type d'événements."},
-      {"title": "Vente de jus naturels", "price": "500 FCFA / bouteille", "desc": "Produis des jus de fruits locaux (bissap, gingembre) avec un emballage moderne. Vends-les dans les espaces publics ou auprès des commerçants."}
+      {"title": "Service de livraison de plats locaux", "price": "2,500 FCFA / plat", "desc": "Prépare des repas authentiques (Ndolé, Eru, Koki) pour les employés de bureau qui n'ont pas le temps de cuisiner. Mettre en avant la qualité 'comme au village'."},
+      {"title": "Traiteur pour cérémonies", "price": "50,000 FCFA min", "desc": "Propose des services de traiteur pour les mariages, baptêmes et réunions familiales. La cuisine camerounaise revisitée est très demandée pour ces moments forts."},
+      {"title": "Vente de jus naturels 'made in Cameroon'", "price": "500 FCFA / bouteille", "desc": "Produis des jus (Bissap, Gingembre, Baobab) avec un emballage moderne et hygiénique. Vends-les dans les espaces publics ou auprès des commerçants."}
     ],
     "code": [
-      {"title": "Création de sites web", "price": "100,000 FCFA / site", "desc": "Conçois des sites vitrines pour les entreprises locales à Douala ou Yaoundé. Une présence en ligne professionnelle est essentielle pour leur croissance."},
-      {"title": "Maintenance informatique", "price": "10,000 FCFA / intervention", "desc": "Offre des services de dépannage, installation de logiciels et nettoyage de virus pour les particuliers et petites entreprises."},
-      {"title": "Gestionnaire de réseaux sociaux", "price": "30,000 FCFA / mois", "desc": "Aide les boutiques à gérer leur page Facebook et Instagram pour attirer plus de clients avec du contenu visuel attractif."}
+      {"title": "Création de sites web pour PME", "price": "100,000 FCFA / site", "desc": "Conçois des sites vitrines pour les boutiques et petites entreprises locales. Une présence en ligne professionnelle est essentielle pour qu'elles se démarquent."},
+      {"title": "Maintenance et réparation informatique", "price": "10,000 FCFA / intervention", "desc": "Offre des services de dépannage, installation de logiciels et nettoyage de virus pour les particuliers qui ont souvent du mal à trouver des techniciens de confiance."},
+      {"title": "Community Management", "price": "30,000 FCFA / mois", "desc": "Aide les commerçants de ton quartier à gérer leur page Facebook et Instagram pour attirer plus de clients avec du contenu visuel attractif."}
+    ],
+    "musique": [
+      {"title": "DJ pour soirées et événements", "price": "25,000 FCFA / soirée", "desc": "Anime les anniversaires, mariages et soirées privées avec un mix de sons locaux (Bikutsi, Makossa) et hits internationaux. Une ambiance garantie qui fidélise."},
+      {"title": "Cours de musique à domicile", "price": "15,000 FCFA / mois", "desc": "Enseigne le piano, la guitare ou le chant aux enfants ou adultes passionnés de ton voisinage."},
+      {"title": "Studio d'enregistrement amateur", "price": "5,000 FCFA / heure", "desc": "Propose un petit studio de qualité pour permettre aux artistes locaux de poser leurs voix sur des maquettes sans se ruiner."}
+    ],
+    "photo": [
+      {"title": "Photographe événementiel", "price": "15,000 FCFA / événement", "desc": "Capture les moments forts des fêtes de quartier, anniversaires et remises de diplômes. La qualité de tes retouches fera toute la différence."},
+      {"title": "Service de portraits pour réseaux sociaux", "price": "5,000 FCFA / séance", "desc": "Propose des séances photos en extérieur pour aider les jeunes entrepreneurs ou influenceurs à avoir des images professionnelles pour leur profil."},
+      {"title": "Impression photo instantanée", "price": "500 FCFA / photo", "desc": "Utilise une imprimante portable lors de grandes fêtes pour offrir des souvenirs immédiats aux invités."}
+    ],
+    "voyage": [
+      {"title": "Guide touristique local", "price": "10,000 FCFA / jour", "desc": "Fais découvrir les trésors cachés de ta ville ou de ta région aux nouveaux arrivants ou aux touristes curieux d'authenticité."},
+      {"title": "Service de réservation de bus/hôtels", "price": "2,000 FCFA / réservation", "desc": "Aide les gens qui ne maîtrisent pas Internet à réserver leurs billets ou leurs hôtels en ligne en toute sécurité."},
+      {"title": "Vente d'accessoires de voyage", "price": "3,000 FCFA min", "desc": "Vends des cadenas de sécurité, des oreillers de voyage, ou des chargeurs portables aux voyageurs qui partent des gares routières."}
+    ],
+    "basket": [
+      {"title": "Organisateur de tournois de rue", "price": "50,000 FCFA / tournoi", "desc": "Organise des tournois de 3x3 dans ton quartier. En vendant des boissons et de la nourriture aux spectateurs, tu démultiplies tes gains."},
+      {"title": "Vente de vêtements 'Streetwear'", "price": "10,000 FCFA min", "desc": "Importe ou crée des t-shirts et shorts de style basket. La culture urbaine est en pleine expansion au Cameroun."},
+      {"title": "Coach technique", "price": "4,000 FCFA / séance", "desc": "Apprends les fondamentaux du basket aux jeunes débutants qui rêvent de faire carrière dans ce sport."}
+    ],
+    "vente": [
+      {"title": "Vente de friperie de luxe", "price": "2,000 FCFA min", "desc": "Sélectionne des pièces uniques dans les balles de friperie ('foh') et revends-les après un bon lavage et un repassage soigné. La présentation augmente la valeur."},
+      {"title": "Service de commissionnaire (Achat pour autrui)", "price": "1,000 FCFA / course", "desc": "Propose de faire les courses difficiles ou volumineuses pour les personnes occupées au marché central ou dans les grands magasins."},
+      {"title": "Vente de produits cosmétiques naturels", "price": "3,000 FCFA min", "desc": "Revends des beurres de karité, huiles essentielles ou savons artisanaux. Les Camerounais sont de plus en plus soucieux de leur peau."}
+    ],
+    "art": [
+      {"title": "Peinture décorative d'intérieur", "price": "20,000 FCFA / mur", "desc": "Décore les salons ou les chambres avec des fresques murales personnalisées ou des motifs modernes."},
+      {"title": "Création de bijoux artisanaux", "price": "5,000 FCFA min", "desc": "Fabrique des colliers et bracelets avec des matériaux locaux (perles, bois, cuir). Le 'made in Cameroon' est très tendance."},
+      {"title": "Atelier d'art pour enfants", "price": "10,000 FCFA / mois", "desc": "Organise des ateliers de dessin ou de poterie pendant les vacances pour occuper les enfants de manière créative."}
+    ],
+    "services": [
+      {"title": "Nettoyage à domicile", "price": "15,000 FCFA / intervention", "desc": "Propose un service de ménage complet pour les maisons ou bureaux avec des produits écologiques. La rigueur et la confiance sont tes atouts."},
+      {"title": "Service d'aide administrative", "price": "2,000 FCFA / document", "desc": "Aide les personnes âgées ou occupées à remplir leurs formulaires, constituer des dossiers ou faire des photocopies légalisées."},
+      {"title": "Coiffure et esthétique à domicile", "price": "5,000 FCFA min", "desc": "Déplace-toi chez tes clientes pour des tresses ou des soins. Le confort du domicile est un service très recherché."}
     ],
   };
 
