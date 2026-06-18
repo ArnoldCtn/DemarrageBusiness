@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:demarrage_business/core/theme/app_colors.dart';
 import 'package:demarrage_business/core/widgets/custom_input_field.dart';
 import 'package:demarrage_business/core/widgets/custom_rounded_button.dart';
 import 'package:demarrage_business/features/auth/presentation/pages/signup_page.dart';
@@ -28,7 +27,7 @@ class _LoginPageState extends State<LoginPage> {
         WidgetsBinding.instance.addPostFrameCallback((_) {
           Navigator.pushReplacement(
             context, 
-            MaterialPageRoute(builder: (_) => MainAppContainer())
+            MaterialPageRoute(builder: (_) => const MainAppContainer())
           );
         });
       }
